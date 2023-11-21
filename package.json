@@ -1,8 +1,31 @@
 {
   "version": "0.1.0",
   "urls": [
-    ["lib_template/__init__.py", "github:mvanderlugt/micropython-lib-template/__init__.py"],
-    ["lib_template/hello.py", "github:mvanderlugt/micropython-lib-template/hello.py"]
+    ["logging/__init__.py", "github:mvanderlugt/micropython-logging/logging/__init__.py"],
+    ["logging/levels.py", "github:mvanderlugt/micropython-logging/logging/levels.py"],
+    ["logging/log_event.py", "github:mvanderlugt/micropython-logging/logging/log_event.py"],
+    ["logging/logger.py", "github:mvanderlugt/micropython-logging/logging/logger.py"],
+    ["logging/logging_context.py", "github:mvanderlugt/micropython-logging/logging/logging_context.py"],
+
+    ["logging/appender/__init__.py", "github:mvanderlugt/micropython-logging/logging/appender/__init__.py"],
+    ["logging/appender/base.py", "github:mvanderlugt/micropython-logging/logging/appender/base.py"],
+    ["logging/appender/factory.py", "github:mvanderlugt/micropython-logging/logging/appender/factory.py"],
+    ["logging/appender/file.py", "github:mvanderlugt/micropython-logging/logging/appender/file.py"],
+    ["logging/appender/in_memory.py", "github:mvanderlugt/micropython-logging/logging/appender/in_memory.py"],
+    ["logging/appender/mqtt.py", "github:mvanderlugt/micropython-logging/logging/appender/mqtt.py"],
+    ["logging/appender/standard_out.py", "github:mvanderlugt/micropython-logging/logging/appender/standard_out.py"],
+
+    ["logging/encoder/__init__.py", "github:mvanderlugt/micropython-logging/logging/encoder/__init__.py"],
+    ["logging/encoder/encoder.py", "github:mvanderlugt/micropython-logging/logging/encoder/encoder.py"],
+    ["logging/encoder/factory.py", "github:mvanderlugt/micropython-logging/logging/encoder/factory.py"],
+    ["logging/encoder/json.py", "github:mvanderlugt/micropython-logging/logging/encoder/json.py"],
+    ["logging/encoder/string.py", "github:mvanderlugt/micropython-logging/logging/encoder/string.py"],
+
+    ["logging/mdc/__init__.py", "github:mvanderlugt/micropython-logging/logging/mdc/__init__.py"],
+    ["logging/mdc/adapter.py", "github:mvanderlugt/micropython-logging/logging/mdc/adapter.py"],
+    ["logging/mdc/basic.py", "github:mvanderlugt/micropython-logging/logging/mdc/basic.py"],
+    ["logging/mdc/context.py", "github:mvanderlugt/micropython-logging/logging/mdc/context.py"],
+    ["logging/mdc/no_op.py", "github:mvanderlugt/micropython-logging/logging/mdc/no_op.py"]
   ],
   "deps": []
 }
